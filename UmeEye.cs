@@ -50,7 +50,7 @@ namespace ViveSR
                 void Update()
                 {
 
-                    SRanipal_Eye.GetEyeData(ref eyeData);
+                    SRanipal_Eye_API.GetEyeData(ref eyeData);
                     SRanipal_Eye.GetVerboseData(out verboseData);
 
 
